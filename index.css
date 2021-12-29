@@ -1,0 +1,174 @@
+*{
+    background-color: black;
+    color: whitesmoke;
+    margin: 1%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/**This is for the navigation tab**/
+
+nav{
+    position: relative;
+    width: 3.5%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+img{
+    width: 100%;
+    margin-left: 2%;
+}
+
+button{
+    border: none;
+}
+
+.list a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 10%;
+}
+
+.list a:hover{
+    transform: scaleX(1.5) scaleY(1.5);
+    text-decoration: underline;
+    transition: 0.9s ease-in-out;
+}
+
+.list{
+    position: relative;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.7s;
+}
+
+.newlist{
+    transform: scaleY(1);
+}
+
+/**This affects the "I Am Christopher
+a FrontEnd Developer**/
+
+#middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 7%;
+    font-weight: 900;
+}
+
+
+
+/**responsive design: 375px**/
+
+@media screen and (max-width: 380px) {
+    nav{
+        position: relative;
+        width: 14.5%;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    
+    img{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 45%;
+        margin-right: 6%;
+        font-weight: 800;
+    }
+    
+}
+
+/**responsive design: 600px**/
+
+@media screen and (min-width: 381px) and (max-width: 600px) {
+    nav{
+        position: relative;
+        width: 15.5%;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    
+    img{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35%;
+        margin-right: 6%;
+        font-weight: 900;
+    }
+    
+    
+}
+
+/**responsive design: 800px**/
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    nav{
+        position: relative;
+        width: 9.5%;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    
+    img{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 19%;
+        margin-right: 6%;
+        font-weight: 700;
+    }
+    
+}
+
+@media screen and (min-width: 801px) and (max-width: 1200px) {
+    nav{
+        position: relative;
+        width: 6.5%;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    
+    img{
+        width: 100%;
+        margin-left: 2%;
+    }
+
+    #middle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 19%;
+        margin-right: 6%;
+        font-weight: 900;
+        font-size: x-large;
+    }
+    
+}
